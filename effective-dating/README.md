@@ -30,7 +30,9 @@ This design pattern or collective pattern will attempt to manage objects (and su
 
 ### UML Model Explanation
 
-TBA
+This is an initial pass; I easily spotted, Item (or Promotion, Discount, Pricing, Styling, etc. any domain object one could imagine) used Inheritance when Composition would be a better mechanism for Item, calling out to EffectiveDateMgr (acting as a Facade), which then an ItemDiscountDateRange would be returned to the caller for application specific Date manipulation. All based on the Template pattern. An application would "plug in" the necessary objects and their relationships would be managed via the patterning. The goal here is to flesh out a simple KISS design and not get mired in objects via "Analysis Paralysis". 
+
+TODO: Continue explanation and design.
 
 ### References
 
