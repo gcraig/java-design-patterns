@@ -26,7 +26,7 @@ This design pattern or collective pattern will attempt to manage objects (and su
 
 ### UML Model
 
-![](/etc/effective-dating.jpg?raw=true)
+![](etc/effective-dating.jpg?raw=true "Effective Dating UML")
 
 ### UML Model Explanation
 
